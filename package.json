@@ -1,0 +1,26 @@
+{
+  "name": "nashventure",
+  "version": "1.0.0",
+  "description": "Api to check url validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "nashventures"
+  ],
+    "repository":{
+        "type":"git",
+        "url":"git@github.com:rpan21/nashventure.git"
+    }
+  "author": "rahul Pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3"
+  }
+}
